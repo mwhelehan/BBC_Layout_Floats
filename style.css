@@ -1,0 +1,154 @@
+/* a minimalist set of css reset */
+/* default to border box */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  html, body{
+    height:100%
+  }
+  
+  .navbar{
+    height:10%;
+    width:100%;
+    border:2px solid black;
+  
+  }
+  .main{
+    height:40%;
+    width:100%;
+    border:2px solid red;
+    padding: 1%;
+    margin-bottom: 3rem;
+  
+  }
+  .main .lead{
+    height:100%;
+    width:50%;
+    border:2px solid green;
+    float: left;
+    padding:1%;
+  
+    background-image: url(https://www.economist.com/img/b/834/469/90/sites/default/files/images/2021/04/articles/main/20210501_map001.jpg);
+    /* background-size: cover; */
+  
+  }
+  .main .grid{
+    height:100%;
+    width:50%;
+    border:2px solid blue;
+    float:left;
+  
+  }
+  .main .grid .grid1{
+    height:50%;
+    width:50%;
+    border:2px solid blue;
+    float:left;
+    background-image: url('./Assets/canada.jpeg');
+    background-size: cover;
+  }
+  .main .grid .grid2{
+    height:50%;
+    width:50%;
+    border:2px solid blue;
+    float:left;
+  }
+  .main .grid .grid3{
+    height:50%;
+    width:50%;
+    border:2px solid blue;
+    float:left;
+  }
+  .main .grid .grid4{
+    height:50%;
+    width:50%;
+    border:2px solid blue;
+    float:left;
+  }
+  
+  .articles-gallery{
+    height:40%;
+    width:100%;
+    border:2px solid saddlebrown;
+   
+  
+  }
+  .articles-gallery .article1{
+    height:100%;
+    width:33.33%;
+    border:2px solid blue;
+    float:left;
+    padding:1%;
+  
+  }.articles-gallery .article2{
+    height:100%;
+    width:33.33%;
+    border:2px solid purple;
+    float:left;
+  
+  }.articles-gallery .article3{
+    height:100%;
+    width:33.33%;
+    border:2px solid gold;
+    float:left;
+  
+  }
+  
+  .footer{
+    height:10%;
+    width:100%;
+    border:2px solid grey;
+  
+  }
+  span.vl {
+    border-left: 6px solid green;
+    display:inline-block;
+    padding-left: 20px;
+  margin-left: 20px; 
+     
+  }
+  span a{
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 3px;
+    color:rgb(167, 146, 146);
+  }
+  .articleimages{
+    height:75%;
+    width:100%;
+    border:2px solid brown;
+  
+  }
+  .articletext{
+    height:25%;
+    width:100%;
+    border:2px solid green;
+  }
+  
+  
+  .article-images{
+      height: 100%;
+      width:100%;
+   object-fit: fit;
+  }
